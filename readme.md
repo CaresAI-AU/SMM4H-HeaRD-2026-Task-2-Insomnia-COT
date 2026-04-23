@@ -3,6 +3,20 @@
 
 This paper describes our system for Subtask 1 of the SMM4H HeaRD 2026 Task 2, which focuses on binary insomnia phenotyping from MIMIC-III clinical notes. Our approach leverages large language models (LLMs) with chain-of-thought (CoT) reasoning and implements three complementary strategies: (1) baseline fixed few-shot prompting, (2) dynamic example retrieval using semantic embeddings, and (3) self-consistency voting. 
 
+## 1. Data
+
+The `text_mimic_notes.py` Python script is designed to retrieve clinical notes and patient information from the [MIMIC-III Clinical Database (v1.4)](https://physionet.org/content/mimiciii/1.4/). The script takes a text file containing note IDs, and merges it with the content of the notes from MIMIC-III, including additional demographic and prescription information.
+
+```bash
+python text_mimic_notes.py --note_ids_path ./training/training_note_ids.txt  --mimic_path ./mimic-iii --output_path ./training/corpus.csv
+
+
+python text_mimic_notes.py --note_ids_path ./validation/validation_note_ids.txt  --mimic_path ./mimic-iii --output_path ./validation/corpus.csv
+
+
+python text_mimic_notes.py --note_ids_path ./test/test_note_ids.txt  --mimic_path ./mimic-iii --output_path ./test/corpus.csv
+```
+
 ## 2. System Architecture
 
 ### 2.1 Overview
