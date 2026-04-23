@@ -115,9 +115,9 @@ The user prompt contains:
 
 #### 3.1.4 LLM Configuration
 
-- **Model:** GPT-4.1 (via Azure OpenAI endpoint) or meta-llama/Llama-3.1-70B-Instruct
+- **Model:** GPT-5.1 (via Azure OpenAI endpoint) or meta-llama/Llama-3.1-70B-Instruct
 - **Temperature:** 0.0 (greedy decoding for deterministic predictions)
-- **Max tokens:** 768 (sufficient for structured JSON response)
+- **Max completion token:** 768 (sufficient for structured JSON response)
 - **API:** OpenAI-compatible interface for model flexibility
 
 ### 3.2 Dynamic Few-Shot Retrieval
@@ -126,7 +126,7 @@ The dynamic approach enhances baseline prompting by selecting contextually relev
 
 #### 3.2.1 Semantic Embedding
 
-We employ sentence-transformers with the BAAI/bge-large-en-v1.5 model:
+We employ sentence-transformers with the BAAI/bge-large-en-v1.5 or ncbi/MedCPT-Query-Encoder model:
 - **Embedding dimension:** 1,024
 - **Normalization:** L2 normalization for cosine similarity
 - **Text preparation:** Notes truncated to 400 words before embedding (for consistency)
@@ -183,3 +183,25 @@ Component-level voting provides several benefits:
 - **Maintains logical consistency:** Post-voting constraint enforcement ensures valid rule combinations
 - **Preserves interpretability:** Voted explanations provide insight into model confidence
 - **Handles ambiguous cases:** Multiple perspectives on borderline cases may improve accuracy
+
+``` bash
+pip install -r requirements.txt
+
+# Configure environment
+export LLM_API_KEY="your-api-key"
+export LLM_BASE_URL="https://your-endpoint.com"
+export LLM_MODEL="gpt-5.1"
+
+# Run baseline classification
+python subtask1_classify.py --mode baseline
+
+# Run dynamic retrieval
+python subtask1_classify.py --mode dynamic --embed_model ncbi/MedCPT-Query-Encoder 
+
+# Run self-consistency
+python subtask1_classify.py --mode self_consist --n_votes 5
+
+# Evaluate
+python subtask1_evaluate.py --predictions predictions_subtask1_baseline.json
+python subtask1_evaluate.py --predictions predictions_subtask1_baseline.json predictions_subtask1_dynamic.json predictions_subtask1_self_consist.json --names baseline dynamic self_consist
+```
