@@ -1,0 +1,628 @@
+{
+    "10686": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "1262007": {
+        "Definition 1": {
+            "label": "yes",
+            "span": [
+                "881 899"
+            ],
+            "text": [
+                "pt unable to sleep"
+            ]
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "yes",
+            "span": [
+                "559 567",
+                "901 907"
+            ],
+            "text": [
+                "Zolpidem",
+                "ambien"
+            ]
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "1272946": {
+        "Definition 1": {
+            "label": "yes",
+            "span": [
+                "357 389"
+            ],
+            "text": [
+                "having difficulty falling asleep"
+            ]
+        },
+        "Definition 2": {
+            "label": "yes",
+            "span": [
+                "273 315",
+                "344 352"
+            ],
+            "text": [
+                "upset with what has been going on with her",
+                "Restless"
+            ]
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "1279443": {
+        "Definition 1": {
+            "label": "yes",
+            "span": [
+                "85 93"
+            ],
+            "text": [
+                "insomnia"
+            ]
+        },
+        "Definition 2": {
+            "label": "yes",
+            "span": [
+                "85 93"
+            ],
+            "text": [
+                "insomnia"
+            ]
+        },
+        "Rule B": {
+            "label": "yes",
+            "span": [
+                "155 162"
+            ],
+            "text": [
+                "halcion"
+            ]
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "1281746": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "1284059": {
+        "Definition 1": {
+            "label": "yes",
+            "span": [
+                "681 715"
+            ],
+            "text": [
+                "Complaining she is unable to sleep"
+            ]
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "yes",
+            "span": [
+                "82 97",
+                "219 228",
+                "380 389",
+                "749 755"
+            ],
+            "text": [
+                "Diphenhydramine",
+                "Lorazepam",
+                "traZODONE",
+                "ativan"
+            ]
+        }
+    },
+    "1288748": {
+        "Definition 1": {
+            "label": "yes",
+            "span": [
+                "930 950"
+            ],
+            "text": [
+                "pt not sleeping well"
+            ]
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "yes",
+            "span": [
+                "461 469"
+            ],
+            "text": [
+                "Zolpidem"
+            ]
+        },
+        "Rule C": {
+            "label": "yes",
+            "span": [
+                "302 311",
+                "1025 1031",
+                "1186 1192"
+            ],
+            "text": [
+                "Lorazepam",
+                "ativan",
+                "ativan"
+            ]
+        }
+    },
+    "1320608": {
+        "Definition 1": {
+            "label": "yes",
+            "span": [
+                "1626 1641"
+            ],
+            "text": [
+                "UNABLE TO SLEEP"
+            ]
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "yes",
+            "span": [
+                "98 108",
+                "1663 1671"
+            ],
+            "text": [
+                "Quetiapine",
+                "SERAQUIL"
+            ]
+        }
+    },
+    "1324558": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "1328271": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "1328300": {
+        "Definition 1": {
+            "label": "yes",
+            "span": [
+                "779 787",
+                "1266 1279"
+            ],
+            "text": [
+                "insomnia",
+                "sleeplessness"
+            ]
+        },
+        "Definition 2": {
+            "label": "yes",
+            "span": [
+                "779 787"
+            ],
+            "text": [
+                "insomnia"
+            ]
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "yes",
+            "span": [
+                "36 44",
+                "87 96",
+                "415 423",
+                "1245 1253"
+            ],
+            "text": [
+                "Diazepam",
+                "Lorazepam",
+                "Diazepam",
+                "Diazepam"
+            ]
+        }
+    },
+    "1333759": {
+        "Definition 1": {
+            "label": "yes",
+            "span": [
+                "389 422",
+                "593 612"
+            ],
+            "text": [
+                "states that he is unable to sleep",
+                "still has not slept"
+            ]
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "yes",
+            "span": [
+                "209 218",
+                "531 537"
+            ],
+            "text": [
+                "Lorazepam",
+                "Ativan"
+            ]
+        }
+    },
+    "1334025": {
+        "Definition 1": {
+            "label": "yes",
+            "span": [
+                "532 559"
+            ],
+            "text": [
+                "difficulty sleeping tonight"
+            ]
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "yes",
+            "span": [
+                "239 247"
+            ],
+            "text": [
+                "Zolpidem"
+            ]
+        },
+        "Rule C": {
+            "label": "yes",
+            "span": [
+                "287 296"
+            ],
+            "text": [
+                "Lorazepam"
+            ]
+        }
+    },
+    "2073": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "24581": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "25898": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "45094": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "54155": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "56587": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "yes",
+            "span": [
+                "1405 1411"
+            ],
+            "text": [
+                "Ambien"
+            ]
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "56803": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "5745": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "58969": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    },
+    "9359": {
+        "Definition 1": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Definition 2": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule B": {
+            "label": "no",
+            "span": [],
+            "text": []
+        },
+        "Rule C": {
+            "label": "no",
+            "span": [],
+            "text": []
+        }
+    }
+}
